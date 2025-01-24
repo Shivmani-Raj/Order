@@ -253,7 +253,6 @@ const OrdersDashboard: React.FC = () => {
           <MenuItem value="All">All Customers</MenuItem>
         </Select>
       </Box>
-
       <TableContainer className="box">
         <Table >
           <TableHead>
