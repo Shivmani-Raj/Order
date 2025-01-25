@@ -207,7 +207,7 @@ const OrdersDashboard: React.FC = () => {
       <Breadcrumbs
         aria-label="breadcrumb"
         sx={{ marginBottom: 2 }}
-        separator={<ChevronRightIcon fontSize="small" />} // Replace default separator with ">"
+        separator={<ChevronRightIcon fontSize="small" />} 
       >
         <HomeIcon sx={{height:"20px" ,mt:"5px"}}/>
         <Link underline="hover" color="inherit" href=">dashboard">
@@ -276,7 +276,7 @@ const OrdersDashboard: React.FC = () => {
                 sx={{ "&:not(:last-child)": { marginBottom: "16px" } }}
               >
                 {" "}
-                {/* Add margin between rows */}
+               
                 <TableCell>
                   <Checkbox />
                 </TableCell>
@@ -333,7 +333,7 @@ const OrdersDashboard: React.FC = () => {
                         alignItems: "center",
                         justifyContent: "center",
                         fontWeight: "bold",
-                        color: "#000000", // Black text
+                        color: "#000000", 
                       }}
                     >
                       {order.customer.charAt(0)}
@@ -376,7 +376,6 @@ export default function DashboardLayoutBasic(props: any) {
 
   const router = useDemoRouter("/dashboard");
 
-  // Remove this const when copying and pasting into your project.
   const demoWindow = window ? window() : undefined;
 
   return (
